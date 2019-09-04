@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tic Tac Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main2.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+ <div class="game-box pt-0">
+     <div class="heading-box">
+       <!-- button to restart game -->
+        <div style="padding-right: 500px; position: absolute"><a href="index.html" style="color:white; text-decoration: none"><i class="fas fa-arrow-left"></i> Back</a>
+        </div>
+       <div style="padding-top: 15px;"><a href="ComputerFirst.html" class="action-btn">Start New Game</a></div>
+         <h4 class="title2">Computer VS Player</h4>
+         <p class="turn"></p>
+         <p class="messages"></p>
+     </div>
+
+     <!-- game board  -->
+     <div id="board">
+        <table>
+          <tr id="row1">
+            <td class="square item1"> </td>
+            <td class="square item2 v"> </td>
+            <td class="square item3"> </td>
+          </tr>
+          <tr id="row2">
+            <td class="square item4 h"> </td>
+            <td class="square item5 v h"> </td>
+            <td class="square item6 h"> </td>
+          </tr>
+          <tr id="row3">
+            <td class="square item7"> </td>
+            <td class="square item8 v"> </td>
+            <td class="square item9"> </td>
+          </tr>
+        </table>
+      </div>
+      
+ </div>  
+</body>
+</html>

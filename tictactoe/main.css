@@ -1,0 +1,91 @@
+body{
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    font-family: Chalkduster, fantasy;
+
+}
+.game-box{
+    max-width: 500px;
+    margin: auto;
+    /* border: 2px solid gray; */
+    border-radius: 100px;
+    padding: 10%;
+    text-align: center;
+}
+.game-box.pt-0{
+    padding-top: 0 !important; 
+}
+
+.heading-box{
+    padding: 10px;
+    border: 3px dashed white;
+    margin-bottom: 20px;
+}
+.game-box .title{
+    font-weight: 600;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 46px;
+}
+.game-box .title2{
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.game-box .turn{
+    color: yellow;
+}
+.game-box .messages{
+    color: red;
+}
+.game-box .actions{
+}
+.game-box .action-list{
+    margin-bottom: 40px !important;
+}
+.game-box .actions a{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.game-box .action-btn{
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    background: green;
+    color: white;
+    text-decoration: none;
+}
+#board > table{
+    margin: auto;
+}
+.square{
+    cursor:pointer;
+    width:130px;
+    height:130px;
+}
+
+.v{
+    border-left:5px solid lightslategray;
+    border-right:5px solid lightslategray;
+}
+
+.h{
+    border-top:5px solid lightslategray;
+    border-bottom:5px solid lightslategray;
+}
+
+td.cross:before{
+    content:"x";
+    font-size: calc(3vw + 3vh);
+    color:lightblue;
+  }
+td.circle:before {
+    content:"o";
+    font-size: calc(3vw + 3vh);
+    color:lightcoral;
+}
